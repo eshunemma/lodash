@@ -1,0 +1,180 @@
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node _.js
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/lodash.js
+Lodash Object Tests:
+1 - _ is defined - Passed!
+2 - The value of _ is an object - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/clamp.js
+_.clamp() Tests:
+1 - _.clamp() is defined - Passed!
+2 - Returns in-range values unmodified - Passed!
+3 - Clamps values by lower bound - Passed!
+4 - Clamps values by upper bound - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/in-range.js
+_.inRange() Tests:
+1 - _.inRange() is defined - Passed!
+2 - Uses end value as start value and start value as 0 if end value is not defin
+ed - Passed!
+3 - Reverses start and end values if start is bigger than end - Passed!
+4 - Returns true if an in-range value is in range - Passed!
+5 - Returns false if a too small value is out of range - Passed!
+6 - Returns false if a too large value is out of range - Passed!
+7 - Returns true if provided value is same as start value - Passed!
+8 - Returns false if provided value is same as end value - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/words.js
+_.words() Tests:
+1 - _.words() is defined - Failed: _.words() was not properly defined.
+Terminating tests...
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/words.js
+_.words() Tests:
+1 - _.words() is defined - Failed: _.words() was not properly defined.
+Terminating tests...
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/words.js
+_.words() Tests:
+1 - _.words() is defined - Failed: _.words() was not properly defined.
+Terminating tests...
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/words.js
+_.words() Tests:
+1 - _.words() is defined - Failed: _.words() was not properly defined.
+Terminating tests...
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/words.js
+_.words() Tests:
+1 - _.words() is defined - Failed: _.words() was not properly defined.
+Terminating tests...
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/words.js
+_.words() Tests:
+1 - _.words() is defined - Failed: _.words() was not properly defined.
+Terminating tests...
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/words.js
+_.words() Tests:
+1 - _.words() is defined - Passed!
+2 - Returns an array - Passed!
+3 - Returns an array of words from a string with one word - Passed!
+4 - Returns an array of words from a string with two words - Passed!
+5 - Returns an array of words from a string with three words - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/words.js
+_.words() Tests:
+1 - _.words() is defined - Passed!
+2 - Returns an array - Passed!
+3 - Returns an array of words from a string with one word - Passed!
+4 - Returns an array of words from a string with two words - Passed!
+5 - Returns an array of words from a string with three words - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/pad.js
+_.pad() Tests:
+1 - _.pad() is defined - Passed!
+2 - Returns strings longer than provided length un-padded - Passed!
+3 - Returns evenly-padded strings - Failed: _.pad("hi", 6) returned hi instead o
+f   hi  .
+4 - Returns oddly-padded strings with extra padding on right side - Failed: _.pa
+d("hi", 5) returned hi instead of  hi  .
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/pad.js
+_.pad() Tests:
+1 - _.pad() is defined - Passed!
+2 - Returns strings longer than provided length un-padded - Passed!
+3 - Returns evenly-padded strings - Passed!
+4 - Returns oddly-padded strings with extra padding on right side - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/has.js
+_.has() Tests:
+1 - _.has() is defined - Passed!
+2 - Returns true if an object has a value at a specified key - Passed!
+3 - Returns false if an object does not have a value at a specified key - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/invert.js
+_.invert() Tests:
+1 - _.invert() is defined - Passed!
+2 - Returns an object with all keys and values inverted - Passed!
+3 - Returns an object with all keys and values inverted - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/find-key.js
+_.findKey() Tests:
+1 - _.findKey() is defined - Passed!
+2 - Returns the corresponding key of a value that returns truthy from the predicate funct
+ion - Passed!
+3 - Returns undefined if an object has no values that return truthy from the predicate fu
+nction - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/drop.js
+_.drop() Tests:
+1 - _.drop() is defined - Passed!
+2 - Returns an array - Passed!
+3 - Drops one element if no number is specified - Passed!
+4 - Drops the specified number of elements from the beginning of an array - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/drop-while.js
+_.dropWhile() Tests:
+1 - _.dropWhile() is defined - Passed!
+C:\Users\eshun\OneDrive\Documents\Code_Academy\projects\Lodash\lodash\_.js:80
+        let droppedArray = array.slice(n, array.length);
+                                 ^
+
+TypeError: array.slice is not a function
+    at Object.drop (C:\Users\eshun\OneDrive\Documents\Code_Academy\projects\Lodash\lodash
+\_.js:80:34)
+    at Object.dropWhile (C:\Users\eshun\OneDrive\Documents\Code_Academy\projects\Lodash\l
+odash\_.js:91:33)
+    at Object.<anonymous> (C:\Users\eshun\OneDrive\Documents\Code_Academy\projects\Lodash
+\lodash\test\drop-while.js:17:135)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/drop-while.js
+_.dropWhile() Tests:
+1 - _.dropWhile() is defined - Passed!
+2 - Returns an array - Passed!
+3 - Drops elements until predicate function returns falsy - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/drop-while.js
+_.dropWhile() Tests:
+1 - _.dropWhile() is defined - Passed!
+2 - Returns an array - Passed!
+3 - Drops elements until predicate function returns falsy - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$ node test/chunk.js
+_.chunk() Tests:
+1 - _.chunk() is defined - Passed!
+2 - Returns an array - Passed!
+3 - Chunks evenly-divided arrays - Passed!
+4 - Chunks unevenly-divided arrays - Passed!
+
+eshun@Tiller-PC MINGW64 ~/OneDrive/Documents/Code_Academy/projects/Lodash/lodash (master)
+$
